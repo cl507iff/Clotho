@@ -1,0 +1,83 @@
+body, h1, h2, p, ul, main {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+.header {
+    background-color: beige;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box{
+ 
+    color: 272425;
+    max-width: 390px;
+    height: 300px;
+    margin: auto; 
+    /* margin-top: 20px; */ 
+    /* margin-bottom: 20px; */
+     padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-top: 20px;
+    border: 5px solid rgba(79,112,79,0.7);
+}
+
+form {
+    
+    display: grid;
+    gap: 10px;
+    font-size: larger;
+}
+
+label {
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+input, textarea {
+    width: 88%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(79,112,79);
+    color: #edf8f0;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-info li {
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0px;
+    background-color: #01ac48;
+    height: 15%;
+}

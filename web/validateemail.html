@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check Email here!!!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/style_2.css">
+        <!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+
+
+    </head>
+    <body style="background-color: beige">
+        <nav class="navbar navbar-expand-md sticky-top" style="background-color: rgb(19,112,79); padding-left: 20px; height: 40px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: white;" href="singin.jsp">Clotho</a>
+            </div>
+        </nav>
+        <div class="box" style="margin-top: 70px;">
+           <h3 style="text-align: center;"> E-mail Validation </h3>
+           <br/>
+        <form action="http://localhost:8080/minor_project/ValidateEmail" method="post">
+      <label for="psw">Enter Your Registered Email Address</label>
+      <input type="email" name="temail" id="temail" required placeholder="Enter your registered email"><br>
+        <button type="submit">Generate OTP and Send Mail</button>
+    </form>
+        </div>
+        <div style="text-align: center; background-color: white; height: 30px; padding: 10px;" class="fixed-bottom">
+            <p>Made by team Clotho</p>
+        </div>
+        
+
+<!-- Include Bootstrap JS bundle (includes Popper.js) -->
+<script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

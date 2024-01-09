@@ -1,0 +1,82 @@
+body{
+    background-color: beige;
+    padding:0;
+    margin: 0;
+}
+
+.sproduct select {
+display: block;
+padding: 5px 10px;
+}
+
+.sproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+.sproduct input:focus {
+outline: none;
+}
+
+.buy-btn {
+    background: beige;
+    opacity: 1;
+    padding: 5px;
+    transition: 0.3s all;
+    border: 2px solid lightgray;
+
+}
+
+.buy-btn:hover {
+    background-color: black;
+    color: white;
+}
+img {
+    width: 50%;
+    height:85%;
+    margin-left: 40%;
+}
+
+.nav-link{
+    color: white
+}
+.cutom-card{
+    min-height: 270px;
+}
+
+
+.custom-container {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img {
+    transition: 0.3s all;
+}
+.product:hover img {
+   opacity: 0.7;
+}
+.product .buy-btn {
+    background-color: beige;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+hr {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(19,112,79);
+}
+.nav-link{
+                color: white
+            }

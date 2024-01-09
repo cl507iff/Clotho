@@ -1,0 +1,75 @@
+body, h1, h2, p, ul, main { 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+.register{
+    font-size: larger;
+}
+
+body { 
+    background-color: beige; 
+} 
+ 
+.header { 
+    background-color: beige; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+} 
+ 
+.box{ 
+    color: 272425; 
+    max-width: 320px; 
+    height: auto; 
+    left: 260px; 
+    margin: auto;   
+    padding: 20px;  
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px; 
+    padding-top: 20px;  
+    border: 5px solid rgb(19,112,79); 
+} 
+ 
+form {   
+    display: grid; 
+    gap: 10px; 
+    font-size: larger;
+    font-family: sans-serif;
+} 
+ 
+label { 
+    
+    font-family: sans-serif;
+} 
+ 
+input, textarea { 
+    width: 93%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+} 
+ 
+button { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(19,112,79); 
+    color: #edf8f0; 
+    padding: 10px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+ 
+button:hover { 
+    background-color: #555; 
+} 
+ 
+#contact-info ul { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+#contact-info li { 
+    margin-bottom: 10px; 
+}

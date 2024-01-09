@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Include Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+        
+    
+    <link rel="stylesheet" href="stylesheets/aboutus.css">
+</head>
+<body>
+    <!--header-->
+        <nav class="navbar navbar-expand-md sticky-top" style="background-color: rgb(19,112,79); padding-bottom: 5px;">
+            <div class="container justify-content-between">
+                <a class="navbar-brand" style="color: white;" href="index.jsp">Clotho</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-labels="Expand Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="nav" style="float: right;">
+                    <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.jsp">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.jsp">Profile</a></li>
+                </ul>
+
+                </div>
+                
+            </div>
+        </nav>
+        <!-- main body -->
+        <section class="heor">
+            <div class="heading">
+                <h1> About Us </h1>
+            </div>
+            <br><br><br><br>
+            <div class="container">
+                <div class="content">
+                    <h2> Welcome to Our Website </h2>
+                    <p> We are energetic about discovering things that transcend the commonplace; that we think will get your attention and capture it. In addition, to convey these to you wherever you are and at whatever point you believe you have sufficient energy to enjoy a bit.
+
+                        So we made an organization to bring you items you will become hopelessly enamored with; to allow you to make your very own space, to take advantage of those concealed abilities and make your own looks and accumulations; to enable you to impart your manifestations to companions to understand that second conclusion, to move or be enlivened; and to enable you to shop such that you will discover hypnotizing.</p>
+                        <a href="#stores" class="btn btn-success"> Learn More  </a>
+                </div>
+                <div class="image">
+                    <img src="images/thriftshop.jpg" alt="photo">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="stores" id="stores">
+            <h2> Our Stores </h2>
+            <hr>
+            <br><br><br>
+            <div class="container">
+            <div class="store1">
+                <img src="images/store1.png" alt="">
+                <br><br>
+             <caption>Shop No 10, Silver Pearl Building, Waterfield Road, Salt Lake Sector 5, Kolkata</caption>
+            </div>
+            <div class="store2">
+                <img src="images/store2.png" alt="">
+            <br><br>
+            <caption> Shop no 3 and 4, JP Rd, next to Navina, Tollygunge, Kolkata: 700047 </caption></div>
+        </div>
+        </section>
+        <br><br>
+        <section class="section2">
+            <img src="images/whythrift.png" alt="">
+        </section>
+        <div class="heading2">
+        <h2> Our Team </h2>
+        <hr>
+        <br>
+    </div>
+        <div class="home-container">
+            <div class="profile-card">
+                 <div class="img">
+                    <img src="images/prastab.png">
+                </div>
+                <div class="caption">
+                    <h3>Prastab Mukhopadhyay</h3>
+                    <p>prastabm@gmail.com</p>
+                    <p>Phone: 9051108514</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="images/rub.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Ruben Cliford Gomes</h3>
+                    <p>cl507iff@gmail.com</p>
+                    <p>Phone: 9007040984</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="images/sappy.png">
+                </div>
+                <div class="caption">
+                    <h3>Saptaparni Chattopadhyay</h3>
+                    <p>sappy@gmail.com</p>
+                    <p>Phone: 9903532842</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="images/debanjana.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Debanjana Dutt</h3>
+                    <p>debanjana@gmail.com</p>
+                    <p>Phone: 6290726769</p>
+                </div>
+            </div>
+        </div>
+        
+    
+    
+<!-- footer -->
+        <section id="contact">
+        <div style="background-color: rgb(19,112,79); padding: 30px;" id="contact">
+            <h2  style="padding-left: 60px; color: white; font-weight: lighter;">Complaints and Queries</h2>
+            <br>
+            <br>
+            <form style="width: 30%; margin-right: auto; margin-left: auto;" action="http://localhost:8080/minor_project/Message" method="POST">
+                <div class="form-group">
+                    <label for="choice" style="color:white;">Purpose</label>
+                    <input type="text" class="form-control" id="choice" name="choice" placeholder="Please state your purpose for sending this message"/>
+                    <br>
+                    <label for="name" style="color:white;">Enter your name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name"/>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email" style="color:white;">Enter your email</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter your Email"/>
+                    <small id="emailHelp" class="form-text text-muted " style="color:white;">We will never share your email with anyone</small>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="message" style="color:white;">Enter your message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your Message"></textarea>
+                </div>
+                <br>
+                <button type="Submit" class="btn btn-outline-light">Submit</button>
+            </form>
+
+            <br>
+            <br>
+            <h4 style="padding-left: 60px; color: white; font-weight: lighter;">
+                    Connect with us on:    <span><a href="#"><img src="assets/facebook.png"></a></span>
+                    <span><a href="#"><img src="assets/instagram.png"></a></span>
+                    <span><a href="#"><img src="assets/twitter.png"></a></span>
+            </h4>
+        </div>
+    </section>
+
+    <div style="text-align: center; color:white; background-color: rgb(19,112,79); height: 40px; padding: 10px;">
+        <p>Made by team Clotho</p>
+    </div>
+
+    
+        <!-- Include Bootstrap JS bundle (includes Popper.js) -->
+        <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
